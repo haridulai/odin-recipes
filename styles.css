@@ -1,0 +1,17 @@
+.recipesList {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  list-style: none;
+}
+
+.recipesList > li {
+  padding: 10px;
+}
+
+.recipesList > li > a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
